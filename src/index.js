@@ -29,6 +29,8 @@ function createBoard(obj) {
   obj.result.forEach((e, index) => {
     leaderboard.innerHTML += `<li class="list-group-item">${obj.result[index].user} ${obj.result[index].score}</li>`;
   });
+  nameInput.value = '';
+  scoreInput.value = '';
 }
 
 async function getScores() {
