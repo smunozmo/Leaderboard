@@ -1,8 +1,11 @@
 body {
-  background:
-    linear-gradient(
-      90deg,
-      rgba(54, 169, 255, 1) 0%,
-      rgba(0, 212, 255, 1) 31%
-    );
+  background-image: url("https://media.giphy.com/media/LjULRGiyt1KpO/source.gif");
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: white;
 }
